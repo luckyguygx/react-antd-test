@@ -3,7 +3,7 @@ const menuList = [
     {
         title: '首页',
         icon:'home',
-        key: '/'
+        key: '/home'
     },
     {
         title: '生命周期',

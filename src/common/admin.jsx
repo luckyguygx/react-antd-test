@@ -16,8 +16,8 @@ export  default  class  Adimin extends React.Component{
         return(
             <Layout className="layout container">
                 <Row style={{height:'100%',overFlow:'hidden'}}>
-                    <Col className='slide' span={5}><Slider></Slider></Col>
-                    <Col className='main' span={19}>
+                    <Col className='slide' span={4}><Slider></Slider></Col>
+                    <Col className='main' span={20}>
                         <Layout>
                           <HeadTop></HeadTop>
                           <Content style={{  overflowY: 'scroll' , flex:1}}>
